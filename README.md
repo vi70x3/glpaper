@@ -23,6 +23,8 @@ The output name will be shown at the top of the monitor entry (e.g., `HDMI-A-1`)
 glpaper HDMI-A-1 kirby.glsl
 ```
 
+You can find more shaders in my [shadertoys](https://github.com/vi70x3/shadertoys) repository.
+
 ## Options
 --help      -h  Displays this help message
 --fork      -F  Forks glpaper so you can close the terminal
