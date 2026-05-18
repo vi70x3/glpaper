@@ -10,11 +10,20 @@ glpaper <output> <shader>
 ```
 
 ### Finding your output
-To find the correct output name for your monitor, run the following command:
+To find the correct output name for your monitor, run the command corresponding to your Wayland compositor:
 
-```bash
-hyprctl monitors
-```
+- **Hyprland:**
+  ```bash
+  hyprctl monitors
+  ```
+- **Sway:**
+  ```bash
+  swaymsg -t get_outputs
+  ```
+- **Wayfire:**
+  ```bash
+  wf-info
+  ```
 
 The output name will be shown at the top of the monitor entry (e.g., `HDMI-A-1`).
 
